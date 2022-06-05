@@ -5,5 +5,6 @@ Auto Raptor with Python  (Raptor See also: http://www.0xdeadbeef.info/exploits/r
 
     pip install pwntools
 
+· Pwn!.
 
-
+    python3 AutoRaptor.py
