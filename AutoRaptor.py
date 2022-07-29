@@ -1,13 +1,13 @@
 import requests
 try:
     from pwn import *
-    print("\n[\033[1;32m+\033[1;37m] Auto Raptor by DEEN\n")
+    print("\nAuto Raptor by DEEN\n")
 except:
-    print('\n[\033[1;31m!\033[1;37m] PrivEsc\n')
+    print('\n PrivEsc\n')
     exit(1)
 
 def kill(sig, frame):
-    print("\n[\033[1;31m-\033[1;37m] Exit\n")
+    print("\nExit\n")
     sys.exit(1)
 
 signal.signal(signal.SIGINT, kill)
